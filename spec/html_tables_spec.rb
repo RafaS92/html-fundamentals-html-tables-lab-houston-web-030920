@@ -25,7 +25,7 @@ RSpec.describe 'index.html' do
 
     expect(new_york.children[0].children[0].text).to eq("New York")
     expect(new_york.children[2].children[0].text).to eq("New York")
-    expect(new_york.children[4].children[0].text).to be == "8,622,698"
+    expect(new_york.children[4].children[0].text).to be  "8,622,698"
   end
 
   it 'contains the correct information about California' do
